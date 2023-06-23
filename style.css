@@ -15,14 +15,26 @@ form {
     border: 2px solid #d6702c;
     box-sizing: border-box;
     border-radius: 10px;
-    text-align: center;
+    text-align: left;
     background-color: #632903;
-  
+    -webkit-text-fill-color: white;
   }
 
-  button {
+  .button1 {
     
-    background-color: #bd4b00;
+    background-color: #b6b300;
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    margin: 10px 0;
+    border: 50px;
+    cursor: pointer;
+    width: 40%;
+    border: 3px solid #d6702c;
+    border-radius: 10px;
+  }
+  .button2 {
+    
+    background-color: #147700;
     color: rgb(255, 255, 255);
     padding: 5px 10px;
     margin: 10px 0;
@@ -57,6 +69,8 @@ form {
     border: 2px solid #d6702c;
     box-sizing: border-box;
     border-radius: 10px;
-    text-align: center;
+    text-align: left;
     background-color: #632903;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-color: white;
   }
